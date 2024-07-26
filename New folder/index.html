@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amina Antonius - Persoonlijke Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Amina Antonius</h1>
+        <p>Iedereen maakt iets mee, het gaat erom vol te houden</p>
+        <nav>
+            <ul>
+                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#languages">Programmeertalen</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Over Mij</h2>
+        <img src="images/amina-antonius.jpg" alt="Amina Antonius">
+        <p>Mijn naam is Amina Antonius, en ik studeer momenteel aan de Natin. Ik ben geboren op 24 november 2004 en ik ben 19 jaar oud. Mijn hobby's zijn voetbal en muziek.</p>
+    </section>
+
+    <section id="languages">
+        <h2>Programmeertalen</h2>
+        <ul>
+            <li><strong>JavaScript:</strong> Ik heb basiskennis van JavaScript en heb het gebruikt om dynamische webpagina's en eenvoudige interactieve elementen te maken.</li>
+            <li><strong>Python:</strong> Ik ben een beginner in Python en heb het gebruikt voor eenvoudige scripts en basisgegevensanalyses.</li>
+            <li><strong>CSS:</strong> Ik heb een fundamenteel begrip van CSS voor het stylen van webpagina's, het maken van lay-outs en het responsief maken van websites.</li>
+            <li><strong>HTML:</strong> Ik ben comfortabel met HTML voor het structureren van webinhoud en heb het gebruikt om eenvoudige webpagina's te bouwen.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projecten</h2>
+        <div class="project">
+            <h3>Persoonlijke Blog</h3>
+            <p>Een eenvoudige blogwebsite waar ik mijn gedachten over verschillende onderwerpen deel. Dit project hielp me mijn HTML-, CSS- en JavaScript-vaardigheden te verbeteren door een schoon ontwerp en interactieve functies te implementeren.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project">
+            <h3>Task Manager</h3>
+            <p>Een eenvoudige taakbeheerapplicatie om dagelijkse taken bij te houden. Dit project omvatte het maken van een gebruiksvriendelijke interface en het gebruik van JavaScript om taken toe te voegen, te verwijderen en statusupdates te beheren.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript</p>
+        </div>
+        <div class="project">
+            <h3>Weer App</h3>
+            <p>Een webapplicatie die weerinformatie ophaalt en weergeeft voor verschillende steden met behulp van een externe API. Dit project verbeterde mijn begrip van API-integratie en gegevensverwerking in JavaScript.</p>
+            <p>Gebruikte technologieën: HTML, CSS, JavaScript, API-integratie</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Bericht:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Verzenden</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
